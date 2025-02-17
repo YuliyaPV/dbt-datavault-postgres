@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: marts
+    database: postgres
+    schema: dbt
+    tables:
+      - name: m_orders_amount_per_customer
+      - name: m_orders_amount_weekly
